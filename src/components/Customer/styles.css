@@ -1,0 +1,31 @@
+#app {
+    height: 100%;
+  }
+  
+ 
+  
+
+  
+  #reviewSlider .swiper {
+    width: 100%;
+    height:30rem;
+  }
+  
+  #reviewSlider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+  
+    /* Center slide text vertically */
+  
+    
+    
+  }
+  
+  #reviewSlider .swiper-slide img {
+    display: block;
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

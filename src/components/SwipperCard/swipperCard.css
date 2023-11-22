@@ -1,0 +1,95 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 300px;
+  height: 400px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#swipperCard .swiper-slide:nth-child(1n) {
+  background-image: url('https://cdn.asaha.com/assets/thumbs/969/96921e068f4aa96042ff3d9425368769.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#swipperCard .swiper-slide:nth-child(2n) {
+    background-image: url('https://cdn.asaha.com/assets/thumbs/bf9/bf93b21ca6f860b22862fb495157ee5e.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#swipperCard .swiper-slide:nth-child(3n) {
+    background-image: url('https://cdn.asaha.com/assets/thumbs/52c/52cd4079b54f1fbcb5d6bc581a73618b.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#swipperCard .swiper-slide:nth-child(4n) {
+    background-image: url('https://cdn.asaha.com/assets/thumbs/76f/76f4460e5e7d2ed6f9f351a3233372db.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#swipperCard .swiper-slide:nth-child(5n) {
+    background-image: url('https://cdn.asaha.com/assets/thumbs/c86/c86fdc5af237f26b40d60d2c8a61dc20.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#swipperCard .swiper-slide:nth-child(6n) {
+    background-image: url('https://cdn.asaha.com/assets/thumbs/74d/74df57f57f80970cd74340e97c50401b.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
